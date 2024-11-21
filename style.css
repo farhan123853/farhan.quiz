@@ -1,0 +1,59 @@
+/* File: styles.css */
+
+/* Styling untuk section dengan ID home */
+.custom-section {
+    background-color: aquamarine;
+    padding: 60px 0;
+}
+
+.custom-heading {
+    color: aquamarine;
+    font-weight: bold;
+}
+
+/* Styling untuk section dengan ID about */
+.custom-about {
+    background-color: #e0f7fa;
+    padding: 60px 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.custom-about h2 {
+    color: #06f0d4;
+    font-weight: bold;
+}
+
+/* Styling untuk card pada bagian layanan */
+.custom-card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.custom-card:hover {
+    transform: translateY(-5px);
+}
+
+.custom-card img {
+    border-radius: 10px 10px 0 0;
+}
+
+/* Styling untuk section kontak */
+.custom-contact {
+    background-color: #c8e6c9;
+    padding: 60px 0;
+}
+
+.custom-contact a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Styling footer */
+footer {
+    background-color: #1e88e5;
+    color: white;
+    font-size: 14px;
+}
